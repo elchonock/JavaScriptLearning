@@ -157,28 +157,62 @@
 // console.log(user.name, user.age, user.salary, user[id]);
 
 
-let answer = prompt("number?", "");
-if (answer == 0) {
-    alert(0);
-}
-else if (answer > 0) {
-    alert("1");}
-else  {
-    alert("-1");
-};
+// let answer = prompt("number?", "");
+// if (answer == 0) {
+//     alert(0);
+// }
+// else if (answer > 0) {
+//     alert("1");}
+// else  {
+//     alert("-1");
+// };
 
 
-let a = 2, b = 3;
+// let a = 2, b = 3;
 
-result = (a + b < 4) ? "not enaugh" : "enaugh";
+// let result = (a + b < 4) ? "not enaugh" : "enaugh";
 
-console.log(result);
-
-
+// console.log(result);
 
 
+// let login = "sdfghj";
+
+// let message = 
+//     (login == "сотр") ? "Hi" : 
+//     (login == "dirr") ? "Good day" : 
+//     (login == "") ? "no login" : "";
+
+// console.log(message);
+
+// let age = 13;
+// if (!((age >= 14) && (age <= 90))) {
+//     console.log(`age is ${age}`);}
+// else {console.log("invalid");
+// }
+
+// let age = prompt("age?", "");
+// alert(!((age >= 14) && (age <= 90)));
+
+// let age = 25;
+// if (age < 14 || age > 90) {
+//     console.log(`age is ${age}`);}
+// else {console.log("invalid");
+// }
 
 
+let login = prompt("enter the login", "");
+let password;
+if (login == "Админ") {
+    password = prompt("enter the password", ""); 
+    if (password == "Я главный"){
+        alert("Hello!");
+    }
+    else if (password == null) {
+        alert("Canceled");
+    }
+    else {alert("wrong password");}}
+else if ( login == null || (login.length == 0)) {alert("Canceled");}
+else {alert("I don't know you");}
 
 
 
