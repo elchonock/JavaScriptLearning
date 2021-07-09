@@ -200,19 +200,21 @@
 // }
 
 
-let login = prompt("enter the login", "");
-let password;
-if (login == "Админ") {
-    password = prompt("enter the password", ""); 
-    if (password == "Я главный"){
-        alert("Hello!");
-    }
-    else if (password == null) {
-        alert("Canceled");
-    }
-    else {alert("wrong password");}}
-else if ( login == null || (login.length == 0)) {alert("Canceled");}
-else {alert("I don't know you");}
+// let login = prompt("enter the login", "");
+// let password;
+// if (login == "Админ") {
+//     password = prompt("enter the password", ""); 
+//     if (password == "Я главный"){
+//         alert("Hello!");
+//     }
+//     else if (password == null) {
+//         alert("Canceled");
+//     }
+//     else {alert("wrong password");}}
+// else if ( login == null || (login.length == 0)) {alert("Canceled");}
+// else {alert("I don't know you");}
+
+
 
 
 
