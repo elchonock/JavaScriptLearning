@@ -1,3 +1,2 @@
 # JavaScriptLearning
-this message for testing git
-also for git
+store here all my learning progress
