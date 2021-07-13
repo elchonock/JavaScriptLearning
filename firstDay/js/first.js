@@ -215,6 +215,121 @@
 // else {alert("I don't know you");}
 
 
+// if (1) {
+//     console.log("ok");
+// }
+// else {
+//     console.log("error");
+// }
+
+// const num = 50;
+// if (num < 49) {
+//     console.log("error");    
+// } else if (num > 100) {
+//     console.log("too many");
+// } else {
+//     console.log("ok");
+// }
+
+// (num === 50) ? console.log("ok!") : console.log("error");
+
+// const num = 50;
+
+// switch (num) {
+//     case 49:
+//         console.log('wrong');
+//         break;
+//     case 100:
+//         console.log('wrong');
+//         break;
+//     case 51:
+//         console.log('right');
+//         break;
+//     default:
+//         console.log('not this time');
+//         break;
+// }
+
+// let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// let num = 50;
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue;
+//     }
+//     console.log(i);    
+// }
+
+// Нахожу список простых натуральных чисел, криво но работает
+// const n = 20;
+// label1:
+// for (let i = 2; i <= n; i++){
+//     if (i == 2){console.log(i);}
+//     for (let j = 2; j < i;){
+//         if (i % j == 0) {
+//             continue label1;
+//         }
+//         while ((i % j != 0) && (j < i)) {
+//             j++;
+//             if (j == i){
+//                 console.log(i);
+//                 break;
+//             }
+//         }
+//     }
+// }
+
+//  Нахождение простых чисел, нормальный алгоритм
+// let numbers = 10;
+
+// nextPrime:
+// for (let i = 2; i <= numbers; i++){
+//     for (let j = 2; j < i; j++){
+//         if (i % j == 0) continue nextPrime;        
+//     }
+//     console.log(i);
+// }
+
+// const browser = "Edge";
+// if (browser == "Edge"){
+//     alert("You've got the Edge!");
+// }
+// else if (browser == "Chrome" || browser == "Firefox" || 
+//          browser == "Safari" || browser == "Opera") {
+//     alert("Ok. We support these browsers too");
+// }
+// else {
+//     alert("We hope that this page looks ok!");
+// }
+
+
+// const numberr = +prompt("enter a number between 0 and 3", "");
+// switch (numberr) {
+//     case 0: 
+//         alert("0");
+//         break;
+//     case 1:
+//         alert("1");
+//         break;
+//     case 2:
+//     case 3:
+//         alert("2 or 3");
+//         break;
+//     default:
+//         alert("error");
+// }
 
 
 
